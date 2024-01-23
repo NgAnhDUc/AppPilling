@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlashActivity">
+    <ImageView
+        android:id="@+id/union1"
+        android:layout_marginTop="-60dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/union"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/Title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/union1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-60dp"
+        android:lineSpacingExtra="-20dp"
+        android:text="Let’s Get Started"
+        android:textColor="@color/black"
+        android:textSize="75dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/title2"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/Title1"
+        android:text="Grow Together"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_below="@id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/join_btn"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_marginTop="40dp"
+            android:textSize="30dp"
+            android:textColorHint="@color/white"
+            android:hint="JOIN NOW"
+            android:background="@drawable/buttonblack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>
