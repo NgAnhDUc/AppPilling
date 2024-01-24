@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PillingApp</string>
+    <string name="action_home">Home</string>
+    <string name="action_bill">Bill</string>
+    <string name="action_contract">Contract</string>
+    <string name="action_account">Account</string>
+    <string name="action_setting">Setting</string>
 </resources>

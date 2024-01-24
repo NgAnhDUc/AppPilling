@@ -5937,26 +5937,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vochu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ANH DUC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DAchuyenganh\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj",
+      "projectUniqueName": "D:\\Document\\GitHub\\AppAndroid\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj",
       "projectName": "APIPiilingss",
-      "projectPath": "D:\\DAchuyenganh\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj",
-      "packagesPath": "C:\\Users\\vochu\\.nuget\\packages\\",
-      "outputPath": "D:\\DAchuyenganh\\APIPiilingss\\APIPiilingss\\obj\\",
+      "projectPath": "D:\\Document\\GitHub\\AppAndroid\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj",
+      "packagesPath": "C:\\Users\\ANH DUC\\.nuget\\packages\\",
+      "outputPath": "D:\\Document\\GitHub\\AppAndroid\\AppPilling\\APIPiilingss\\APIPiilingss\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\vochu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ANH DUC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6025,7 +6018,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

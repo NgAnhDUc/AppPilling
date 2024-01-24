@@ -59,3 +59,13 @@ D:\DAchuyenganh\APIPiilingss\APIPiilingss\obj\Debug\net5.0\APIPiilingss.dll
 D:\DAchuyenganh\APIPiilingss\APIPiilingss\obj\Debug\net5.0\ref\APIPiilingss.dll
 D:\DAchuyenganh\APIPiilingss\APIPiilingss\obj\Debug\net5.0\APIPiilingss.pdb
 D:\DAchuyenganh\APIPiilingss\APIPiilingss\obj\Debug\net5.0\APIPiilingss.genruntimeconfig.cache
+D:\Document\GitHub\AppAndroid\AppPilling\APIPiilingss\APIPiilingss\obj\Debug\net5.0\APIPiilingss.csproj.AssemblyReference.cache
+D:\Document\GitHub\AppAndroid\AppPilling\APIPiilingss\APIPiilingss\obj\Debug\net5.0\APIPiilingss.GeneratedMSBuildEditorConfig.editorconfig
+D:\Document\GitHub\AppAndroid\AppPilling\APIPiilingss\APIPiilingss\obj\Debug\net5.0\APIPiilingss.AssemblyInfoInputs.cache
+D:\Document\GitHub\AppAndroid\AppPilling\APIPiilingss\APIPiilingss\obj\Debug\net5.0\APIPiilingss.AssemblyInfo.cs
+D:\Document\GitHub\AppAndroid\AppPilling\APIPiilingss\APIPiilingss\obj\Debug\net5.0\APIPiilingss.csproj.CoreCompileInputs.cache
+D:\Document\GitHub\AppAndroid\AppPilling\APIPiilingss\APIPiilingss\obj\Debug\net5.0\APIPiilingss.MvcApplicationPartsAssemblyInfo.cs
+D:\Document\GitHub\AppAndroid\AppPilling\APIPiilingss\APIPiilingss\obj\Debug\net5.0\APIPiilingss.MvcApplicationPartsAssemblyInfo.cache
+D:\Document\GitHub\AppAndroid\AppPilling\APIPiilingss\APIPiilingss\obj\Debug\net5.0\APIPiilingss.dll
+D:\Document\GitHub\AppAndroid\AppPilling\APIPiilingss\APIPiilingss\obj\Debug\net5.0\ref\APIPiilingss.dll
+D:\Document\GitHub\AppAndroid\AppPilling\APIPiilingss\APIPiilingss\obj\Debug\net5.0\APIPiilingss.pdb
