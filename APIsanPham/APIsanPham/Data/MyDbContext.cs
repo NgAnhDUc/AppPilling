@@ -11,6 +11,7 @@ namespace APIsanPham.Data
     {
         public MyDbContext(DbContextOptions options):base(options)
         {
+
         }
         #region DbSet
         public DbSet<HangHoa> HangHoas { get; set; }

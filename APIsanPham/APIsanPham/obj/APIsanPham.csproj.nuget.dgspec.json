@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DAchuyenganh\\APIsanPham\\APIsanPham\\APIsanPham.csproj": {}
+    "D:\\Document\\GitHub\\AppAndroid\\AppPilling\\APIsanPham\\APIsanPham\\APIsanPham.csproj": {}
   },
   "projects": {
-    "D:\\DAchuyenganh\\APIsanPham\\APIsanPham\\APIsanPham.csproj": {
+    "D:\\Document\\GitHub\\AppAndroid\\AppPilling\\APIsanPham\\APIsanPham\\APIsanPham.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DAchuyenganh\\APIsanPham\\APIsanPham\\APIsanPham.csproj",
+        "projectUniqueName": "D:\\Document\\GitHub\\AppAndroid\\AppPilling\\APIsanPham\\APIsanPham\\APIsanPham.csproj",
         "projectName": "APIsanPham",
-        "projectPath": "D:\\DAchuyenganh\\APIsanPham\\APIsanPham\\APIsanPham.csproj",
-        "packagesPath": "C:\\Users\\vochu\\.nuget\\packages\\",
-        "outputPath": "D:\\DAchuyenganh\\APIsanPham\\APIsanPham\\obj\\",
+        "projectPath": "D:\\Document\\GitHub\\AppAndroid\\AppPilling\\APIsanPham\\APIsanPham\\APIsanPham.csproj",
+        "packagesPath": "C:\\Users\\ANH DUC\\.nuget\\packages\\",
+        "outputPath": "D:\\Document\\GitHub\\AppAndroid\\AppPilling\\APIsanPham\\APIsanPham\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vochu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ANH DUC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
