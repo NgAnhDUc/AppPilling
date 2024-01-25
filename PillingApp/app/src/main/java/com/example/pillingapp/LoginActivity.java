@@ -3,6 +3,7 @@ package com.example.pillingapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -18,6 +19,18 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
+
+import javax.net.ssl.HttpsURLConnection;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.TrustManager;
+import javax.net.ssl.X509TrustManager;
+import java.security.SecureRandom;
+import com.android.volley.toolbox.HurlStack;
 public class LoginActivity extends AppCompatActivity {
     Button back_btn,login_btn;
     TextView signup_btn;
@@ -55,9 +68,11 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
     void CallAPILoginVolley(){
-        RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="https://10.0.2.2:44321/api/Account";
 
+        RequestQueue queue = Volley.newRequestQueue(this);
+        final String SERVER = "http://192.168.18.1:5000/api/Account";
+        Uri.Builder builder = Uri.parse(SERVER).buildUpon();
+        String url = builder.build().toString();
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
@@ -75,3 +90,5 @@ public class LoginActivity extends AppCompatActivity {
         queue.add(stringRequest);
     }
 }
+
+
