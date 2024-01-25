@@ -67,6 +67,7 @@ public class LoginActivity extends AppCompatActivity {
                 else {
                     Toast.makeText(LoginActivity.this, "Type username and password", Toast.LENGTH_SHORT).show();
                 }
+
             }
         });
         signup_btn.setOnClickListener(new View.OnClickListener() {
