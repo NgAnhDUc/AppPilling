@@ -24,15 +24,14 @@ namespace APIPiilingss.Controllers
             var dsAccount = _context.Accounts.ToList();
             return Ok(dsAccount);
         }
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        [HttpGet("login")]
+        public IActionResult Login([FromQuery] int id, [FromQuery] string pass)
         {
             try
             {
-                var account = _context.Accounts.SingleOrDefault(acc => acc.Cmnd == id);
+                var account = _context.Accounts.SingleOrDefault(acc => acc.Cmnd == id && acc.Passwordd == pass);
                 if (account != null)
                 {
-
                     return Ok(account);
                 }
                 else
@@ -42,10 +41,10 @@ namespace APIPiilingss.Controllers
             }
             catch
             {
-
                 return BadRequest();
             }
         }
+
         [HttpPost]
         public IActionResult Create(Account model)
         {

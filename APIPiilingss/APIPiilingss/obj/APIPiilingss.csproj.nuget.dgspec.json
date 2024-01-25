@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DAchuyenganh\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj": {}
+    "D:\\AppDoAn\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj": {}
   },
   "projects": {
-    "D:\\DAchuyenganh\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj": {
+    "D:\\AppDoAn\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DAchuyenganh\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj",
+        "projectUniqueName": "D:\\AppDoAn\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj",
         "projectName": "APIPiilingss",
-        "projectPath": "D:\\DAchuyenganh\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj",
+        "projectPath": "D:\\AppDoAn\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj",
         "packagesPath": "C:\\Users\\vochu\\.nuget\\packages\\",
-        "outputPath": "D:\\DAchuyenganh\\APIPiilingss\\APIPiilingss\\obj\\",
+        "outputPath": "D:\\AppDoAn\\AppPilling\\APIPiilingss\\APIPiilingss\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
