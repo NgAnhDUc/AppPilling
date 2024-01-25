@@ -4,18 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.pillingapp.API.ApiServices;
-import com.example.pillingapp.Model.User;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 
 public class LoginActivity extends AppCompatActivity {
     Button back_btn,login_btn;
@@ -40,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
         login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                callAPILogin();
+                CallAPILoginVolley();
                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(intent);
             }
@@ -53,18 +54,24 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
-    void callAPILogin(){
-        ApiServices.apiService.login(1,"QuocEm").enqueue(new Callback<User>() {
-            @Override
-            public void onResponse(Call<User> call, Response<User> response) {
-                Toast.makeText(LoginActivity.this, "CallSuccess", Toast.LENGTH_SHORT).show();
-            }
+    void CallAPILoginVolley(){
+        RequestQueue queue = Volley.newRequestQueue(this);
+        String url ="https://10.0.2.2:44321/api/Account";
 
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        Toast.makeText(getApplicationContext(), "Response: " + response,Toast.LENGTH_SHORT).show();
+                    }
+                }, new Response.ErrorListener() {
             @Override
-            public void onFailure(Call<User> call, Throwable t) {
-                Toast.makeText(LoginActivity.this, "Faild", Toast.LENGTH_SHORT).show();
+            public void onErrorResponse(VolleyError error) {
+                Log.d("Volleyy", error.toString());
+                Toast.makeText(LoginActivity.this, ""+error.toString(), Toast.LENGTH_SHORT).show();
             }
         });
 
+        queue.add(stringRequest);
     }
 }
