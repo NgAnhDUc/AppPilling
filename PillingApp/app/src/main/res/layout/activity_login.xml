@@ -57,7 +57,7 @@
         <TextView
             android:layout_marginLeft="40dp"
             android:textSize="26dp"
-            android:text="Username"
+            android:text="CMND/CCCD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
