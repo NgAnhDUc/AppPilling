@@ -3,14 +3,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragment.BillFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:gravity="center"
-        android:textSize="50dp"
-        android:text="Bill Fragment"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="Bills"
+            android:textColor="#171D33"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+    </LinearLayout>
 </FrameLayout>

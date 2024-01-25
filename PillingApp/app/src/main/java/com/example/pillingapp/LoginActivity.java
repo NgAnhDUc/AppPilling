@@ -41,7 +41,6 @@ public class LoginActivity extends AppCompatActivity {
         login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                CallAPILoginVolley();
                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(intent);
             }

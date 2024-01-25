@@ -33,9 +33,10 @@
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
                 android:id="@+id/linearLayout"
-                android:background="@drawable/profile_bk">
+                android:background="@color/purple_700">
 
                 <ImageView
+                    android:layout_marginTop="25dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/profile_round" />
@@ -61,12 +62,6 @@
                     android:layout_gravity="bottom"
                     android:layout_marginTop="20dp"
                     android:background="@color/profileBackground">
-
-                    <View
-                        android:layout_alignParentTop="true"
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:background="@drawable/profile_bk"/>
                 </RelativeLayout>
 
             </LinearLayout>
