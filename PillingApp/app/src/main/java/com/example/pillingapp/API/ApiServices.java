@@ -27,5 +27,5 @@ public interface ApiServices {
     @GET("api/Account/login")
     Call<User> login(@Query("id") int id,
                      @Query("pass") String pass );
-
+    //
 }
