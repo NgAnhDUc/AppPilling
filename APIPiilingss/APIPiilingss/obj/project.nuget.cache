@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "CwDY13TcxUACOMOksw2prWYramXsCRV7MJzubbOhxEZuwpcyFA418RF2jtr8w29khjyXJePIiXUqKqg9KVzvPg==",
   "success": true,
   "projectFilePath": "D:\\Document\\GitHub\\AppAndroid\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj",
-=======
-  "dgSpecHash": "NxZtVf4QiBToomQtxmN+9PU3uEdhumYQTxybVxXDH12VO4s8Sl3LdA48Wi8LmywEICRBBLrfi00n8FTuS9O+oQ==",
-  "success": true,
-  "projectFilePath": "D:\\AppDoAn\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj",
->>>>>>> 93e9682e2f7f58207b69ed36ee6b36ec32445b67
   "expectedPackageFiles": [
     "C:\\Users\\ANH DUC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ANH DUC\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -114,5 +108,12 @@
     "C:\\Users\\ANH DUC\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\ANH DUC\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Document\\GitHub\\AppAndroid\\AppPilling\\APIPiilingss\\APIPiilingss\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

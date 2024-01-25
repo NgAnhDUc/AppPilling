@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "D:\\Document\\GitHub\\AppAndroid\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "D:\\Document\\GitHub\\AppAndroid\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj",
         "packagesPath": "C:\\Users\\ANH DUC\\.nuget\\packages\\",
         "outputPath": "D:\\Document\\GitHub\\AppAndroid\\AppPilling\\APIPiilingss\\APIPiilingss\\obj\\",
-=======
-    "D:\\AppDoAn\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj": {}
-  },
-  "projects": {
-    "D:\\AppDoAn\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\AppDoAn\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj",
-        "projectName": "APIPiilingss",
-        "projectPath": "D:\\AppDoAn\\AppPilling\\APIPiilingss\\APIPiilingss\\APIPiilingss.csproj",
-        "packagesPath": "C:\\Users\\vochu\\.nuget\\packages\\",
-        "outputPath": "D:\\AppDoAn\\AppPilling\\APIPiilingss\\APIPiilingss\\obj\\",
->>>>>>> 93e9682e2f7f58207b69ed36ee6b36ec32445b67
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ANH DUC\\AppData\\Roaming\\NuGet\\NuGet.Config",
