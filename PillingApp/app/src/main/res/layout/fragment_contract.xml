@@ -9,7 +9,7 @@
     <TextView
         android:gravity="center"
         android:textSize="50dp"
-        android:text="Cnntract Fragment"
+        android:text="Contract Fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
