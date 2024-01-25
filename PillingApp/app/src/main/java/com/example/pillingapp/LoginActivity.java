@@ -1,5 +1,6 @@
 package com.example.pillingapp;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -12,6 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -30,6 +32,9 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 import java.security.SecureRandom;
+import java.util.HashMap;
+import java.util.Map;
+
 import com.android.volley.toolbox.HurlStack;
 public class LoginActivity extends AppCompatActivity {
     Button back_btn,login_btn;
@@ -54,8 +59,15 @@ public class LoginActivity extends AppCompatActivity {
         login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(intent);
+                if(Validate()){
+                    String id = username_edt.getText().toString();
+                    String pass = password_edt.getText().toString();
+                    CallAPILoginVolley(id,pass);
+                }
+                else {
+                    Toast.makeText(LoginActivity.this, "Type username and password", Toast.LENGTH_SHORT).show();
+                }
+
             }
         });
         signup_btn.setOnClickListener(new View.OnClickListener() {
@@ -66,27 +78,39 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
-    void CallAPILoginVolley(){
+    void CallAPILoginVolley(String id,String pass){
 
         RequestQueue queue = Volley.newRequestQueue(this);
-        final String SERVER = "http://192.168.18.1:5000/api/Account";
+        final String SERVER = "http://192.168.178.19:5000/api/Account/login?id="+id+"&pass="+pass;
         Uri.Builder builder = Uri.parse(SERVER).buildUpon();
         String url = builder.build().toString();
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        Toast.makeText(getApplicationContext(), "Response: " + response,Toast.LENGTH_SHORT).show();
+                        Log.d("Volleyy",""+response);
+                        Toast.makeText(getApplicationContext(), "Login Success",Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                        startActivity(intent);
                     }
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Log.d("Volleyy", error.toString());
-                Toast.makeText(LoginActivity.this, ""+error.toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(LoginActivity.this, "User and password not valid", Toast.LENGTH_SHORT).show();
             }
         });
 
         queue.add(stringRequest);
+    }
+    boolean Validate(){
+        if(username_edt.getText().equals("")){
+            return false;
+        }
+        if (password_edt.getText().equals("")){
+            return false;
+        }
+        return true;
     }
 }
 

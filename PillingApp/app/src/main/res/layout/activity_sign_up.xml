@@ -51,7 +51,7 @@
         <TextView
             android:layout_marginLeft="40dp"
             android:textSize="26dp"
-            android:text="Enter Email Id"
+            android:text="CMND/CCCD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
@@ -70,7 +70,7 @@
             android:layout_marginTop="60dp"
             android:layout_marginLeft="40dp"
             android:textSize="26dp"
-            android:text="Create Username"
+            android:text="Create Password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <EditText
@@ -88,7 +88,7 @@
             android:layout_marginTop="60dp"
             android:layout_marginLeft="40dp"
             android:textSize="26dp"
-            android:text="Create Password"
+            android:text="Confirm Password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <EditText
